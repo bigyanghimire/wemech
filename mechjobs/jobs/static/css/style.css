@@ -1,0 +1,199 @@
+body{
+     background:white !important;
+     #background:url("mech4.jpg") no-repeat ;
+     background-size: 100%;
+}
+ 
+    .navbar{
+     background-color:  !important;
+     
+     padding-right: 240px;
+     padding-top: 10px;
+}
+nav div ul li a{
+     color: #AEAEAE !important;
+     font-size: 14px;
+     }
+nav div ul li a:hover{
+     color: #333 !important;
+     
+     }
+     nav div ul li a #login{
+          background-color: white;
+          border:transparent;
+          font-size: 13px;
+          font-weight: bold;
+          padding-left: 14px;
+          padding-right:14px;
+          border:1px black solid;
+          border-radius: 4px;
+          padding-top: 7px;
+          padding-bottom: 7px;
+          margin-bottom: 0px;
+     }
+     nav div ul li a #login:hover{
+color: white;
+background-color: black;
+cursor: pointer;
+     }
+     nav div ul li a #register{
+          background-color: #778DFF;
+          border:transparent;
+          font-size: 13px;
+          font-weight: bold;
+          padding-left: 14px;
+          padding-right:14px;
+          color: white;
+          border-radius: 4px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          margin-bottom: 0px;
+     }
+     nav div ul li a #register:hover{
+cursor: pointer;
+
+     }
+ .decoration{
+     max-width: 100%;
+     height: 40%;
+     margin-top: 68px;
+     background:url("bg.jpg") no-repeat ;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+ .decoration input {
+     width: 60%;
+     height: 30%;
+     margin-left: 20%;
+     margin-right: 20%;
+     text-align: center;
+     border-radius: 60px;
+     border-bottom-color: #07575b;
+     font-size: 30px;
+     margin-top: 10px;
+     border:transparent;
+     font-family: "Arial";
+}
+ .decoration button{
+     border-radius: 30px;
+     width:40%;
+     margin-top: 10px;
+     margin-right: 30%;
+     margin-left:30%;
+     padding-top: 20px;
+     padding-bottom:20px;
+     background-color: #34495E;
+     border-color: #34495E;
+     box-shadow: none;
+     border:transparent;
+     color: white;
+     font-size: 20px;
+     font-family: sans-serif;
+     margin-bottom: 10px;
+}
+ .decoration button:hover{
+     cursor: pointer;
+     background-color: #011a27;
+}
+.advertisement{
+     height: 100px;
+     width: 100%;
+     background-color: redg;
+}
+ .job{
+     #background-color: #2d4262;
+     #background-color: white;
+     max-width: 80%;
+     height: 100%;
+     margin-left: 60px;
+     margin-top: 30px;
+     border-radius:30px;
+     color: black;
+     border:1px solid #ccc;
+     #box-shadow: 5px 10px ;
+    
+}
+.job h5{
+     margin-left: 35px;
+     color: red;
+}
+.job h1{
+     font-size: 35px;
+}
+ .job h1,h3{
+     margin-left: 10px;
+     font-family: 'Bahnschrift';
+}
+
+ .job h3{
+     font-family: "Bahnschrift";
+     font-weight: lighter;
+}
+ .job button{
+     
+margin-top: 7px;
+     border-radius: 20px;
+     font-size: 35px;
+     background-color: #f0810f;
+     color: white;
+     font-family: 'Impact';
+     border:transparent;
+}
+ .job button:hover{
+     background-color: white;
+     cursor: pointer;
+     color: coral;
+}
+ .footer {
+     text-align: center;
+     height: 100%;
+     padding-top: 30px;
+     background-color: #282923;
+     color: white;
+     margin-bottom: 0px;
+     padding-bottom: 10px;
+}
+
+.footer form input{
+     border-radius: 20px;
+     width: 40%;
+     text-align: center;
+}
+ .pagination{
+     text-align: center;
+     background-color: white;
+     width: 100%;
+     height: 50px;
+     margin: 0 auto;
+     display: block;
+ }
+ .pagination a{
+     border-radius: 20px;
+     margin: 0 auto;
+     margin-top: 10px;
+
+ }
+ .pagination a button{
+     border-radius:10px;
+     font-size: 25px;
+     border:transparent;
+     background-color: #0aaff1;
+     color: white;
+     font-family: Arial;
+ }
+.pagination a button:hover{
+cursor: pointer;
+background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+

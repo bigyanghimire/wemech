@@ -1,0 +1,60 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeMechJobs | Post Jobs</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel ="stylesheet" type="text/css" href="{% static 'css/style2.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel ="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+  <h1 style="text-align: center;">!UNDER CONSTRUCTION!</h1>
+<div class="container">
+  <form>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Company Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="email" placeholder="Company email...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="jtitle">Job Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="jtitle" name="jobtitle" placeholder="Enter the Job Title">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="location">Location</label>
+      </div>
+      <div class="col-75">
+        <select id="location" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
