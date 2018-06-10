@@ -16,7 +16,7 @@ SECRET_KEY = 'w9%b8v&&-8&f6!&idwz3g@cc7_4*2po*35_+4*z4dxkk%lit(d'
 DEBUG = True
 #STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
 #ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, ‘stark-escarpment-63219.herokuapp.com’]
-ALLOWED_HOSTS=[]
+ALLOWED_HOSTS=['warm-river-76543.herokuapp.com']
 
 # Application definition
 
